@@ -7,23 +7,33 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .container {
-    background-color: lightseagreen;
+    background-color: rgb(66, 66, 65);
     width: 500px;
     display: flex;
     justify-content: center;
+    color: white;
+    padding: 20px;
 }
 
 .section {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 45px 45px 45px;
+    
+}
+
+label {
+    font-size: 1.2em;
 }
 
 input {
     width: 400px;
     height: 40px;
+    background-color: rgb(211, 173, 186);
+    font-size: 1.2em;
 }
 
 input, button {
@@ -31,6 +41,21 @@ input, button {
     font-size: 100%;
 }
 
+.btn-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(168, 164, 236);
+}
+
 button:hover {
     cursor: pointer;
+    background-color: blueviolet;
 }
+

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Form Validation</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <script src="index.js" defer></script>
 </head>
 <body>
@@ -14,27 +17,27 @@
             <div class="section email-div">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" autofocus>
-                <div class="email-error"></div>
+                <div class="error email-error"></div>
             </div>
             <div class="section country-div">
                 <label for="country">Country:</label>
                 <input type="text" id="country" name="country">
-                <div class="country-error"></div>
+                <div class="error country-error"></div>
             </div>
             <div class="section zip-div">
                 <label for="zip">Zip code:</label>
                 <input type="text" id="zip" name="zip">
-                <div class="zip-error"></div>
+                <div class="error zip-error"></div>
             </div>
             <div class="section password-div">
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password">
-                <div class="password-error"></div>
+                <div class="error password-error"></div>
             </div>
             <div class="section confirm-div">
                 <label for="confirm">Confirm password:</label>
                 <input type="password" id="confirm" name="confirm">
-                <div class="confirm-error"></div>
+                <div class="error confirm-error"></div>
             </div>
             <div class="btn-div">
                 <button type="submit">Sign up!</button>
