@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: lightseagreen;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
 .section {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
