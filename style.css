@@ -10,6 +10,11 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+input, button {
+    font-family: inherit;
+    font-size: 100%;
+}
+
 .container {
     background-color: rgb(66, 66, 65);
     width: 500px;
@@ -36,9 +41,12 @@ input {
     font-size: 1.2em;
 }
 
-input, button {
-    font-family: inherit;
-    font-size: 100%;
+input.invalid {
+    border: 3px solid rgb(248, 11, 11);
+}
+
+input.valid {
+    background-color: rgb(158, 241, 158);
 }
 
 .btn-div {
@@ -52,6 +60,7 @@ button {
     border-radius: 10px;
     font-weight: bold;
     background-color: rgb(168, 164, 236);
+    font-size: 1.2rem;
 }
 
 button:hover {
