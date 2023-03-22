@@ -60,7 +60,6 @@ input.valid {
 .error {
     width: 400px;
     font-style: italic;
-    display: none;
     font-size: 0.9em;
 }
 

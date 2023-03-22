@@ -33,6 +33,7 @@ email.addEventListener("input", () => {
         emailError.textContent = "";
     } else {
         email.className = "invalid";
+        emailError.textContent = "An valid email address is required - format name@host";
     }
 });
 
@@ -49,6 +50,7 @@ zip.addEventListener("input", () => {
         zipError.textContent = "";
     } else {
         zip.className = "invalid";
+        zipError.textContent = "A valid zip code in US or UK format is required";
     }
 });
 
@@ -59,6 +61,7 @@ password.addEventListener("input", () => {
         passwordError.textContent = "";
     } else {
         password.className = "invalid";
+        passwordError.textContent = "Password must be between 4 and 8 characters long and include at least one number";
     }
 });
 
@@ -69,6 +72,7 @@ confirmPassword.addEventListener("input", () => {
         confirmError.textContent = "";
     } else {
         confirmPassword.className = "invalid";
+        confirmError.textContent = "Passwords do not match!";
     }
 })
 
@@ -78,7 +82,6 @@ form.addEventListener("submit", (event) => {
     if (!emailValid || email.value.length === 0) {
         email.className = "invalid";
         emailError.textContent = "An valid email address is required - format name@host";
-        emailError.style.display = "block";
     } else {
         email.className = "valid";
         emailError.textContent = "";
@@ -94,7 +97,6 @@ form.addEventListener("submit", (event) => {
     if (!zipValid || zip.value.length === 0) {
         zip.className = "invalid";
         zipError.textContent = "A valid zip code in US or UK format is required";
-        zipError.style.display = "block";
     } else {
         zip.className = "valid";
         zipError.textContent = "";
@@ -104,7 +106,6 @@ form.addEventListener("submit", (event) => {
     if (!passwordValid || password.value.length === 0) {
         password.className = "invalid";
         passwordError.textContent = "Password must be between 4 and 8 characters long and include at least one number";
-        passwordError.style.display = "block";
     } else {
         password.className = "valid";
         passwordError.textContent = "";
@@ -114,7 +115,6 @@ form.addEventListener("submit", (event) => {
     if (!confirmValid || confirmPassword.value.length === 0) {
         confirmPassword.className = "invalid";
         confirmError.textContent = "Passwords do not match!";
-        confirmError.style.display = "block";
     } else {
         confirmPassword.className = "valid";
         confirmError.textContent = "";
