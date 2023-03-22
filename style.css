@@ -68,7 +68,9 @@ input.valid {
 
 .btn-div {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -79,11 +81,19 @@ button {
     background-color: rgb(168, 164, 236);
     font-size: 1.2rem;
     border: none;
+    width: 130px;
+    margin-bottom: 5px;
 }
 
 button:hover {
     cursor: pointer;
     background-color: blueviolet;
     border: 1px solid black;
+}
+
+.submitted {
+    padding: 10px;
+    font-size: 1.3em;
+    display: none;
 }
 
