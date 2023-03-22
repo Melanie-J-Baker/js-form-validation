@@ -18,11 +18,17 @@ input, button {
 .container {
     background-color: rgb(66, 66, 65);
     width: 500px;
-    height: 775px;
+    height: 850px;
     display: flex;
     justify-content: center;
     color: white;
     padding: 20px;
+}
+
+.title {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 30px;
 }
 
 .section {
@@ -32,7 +38,7 @@ input, button {
 }
 
 label {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 input {
@@ -55,6 +61,7 @@ input.valid {
     width: 400px;
     font-style: italic;
     display: none;
+    font-size: 0.9em;
 }
 
 

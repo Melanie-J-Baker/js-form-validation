@@ -14,6 +14,7 @@
 <body>
     <div class="container">
         <form id="form" action="index.js" novalidate>
+            <p class="title">Please provide us with your details:</p>
             <div class="section email-div">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" autofocus>
@@ -21,7 +22,10 @@
             </div>
             <div class="section country-div">
                 <label for="country">Country:</label>
-                <input type="text" id="country" name="country">
+                <select id="country" name="country">
+                    <option value="us">United States</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
                 <div class="error country-error"></div>
             </div>
             <div class="section zip-div">
