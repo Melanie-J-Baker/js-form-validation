@@ -1,8 +1,8 @@
 # js-form-validation
 
-Created as part of the Odin Project full stack JavaScript course. 
+Created as part of the Odin Project full stack JavaScript course: https://www.theodinproject.com/lessons/node-path-javascript-form-validation-with-javascript
 
-HTML form validated using JavaScript.
+A HTML form validated using JavaScript.
 
 Play with the form here:
 https://melanie-j-baker.github.io/js-form-validation/
